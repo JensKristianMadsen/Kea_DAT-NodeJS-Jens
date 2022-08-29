@@ -10,8 +10,8 @@ const lastName = "Latif";
 // Print out the following in the console:
 // My first name is Anders and my last name is Latif
 
-// const message = "My first name is " + firstName + " and my last name is " + lastName;
-// console.log(message);
+const exercise1 = "My first name is " + firstName + " and my last name is " + lastName;
+console.log(exercise1);
 
 // console.log("My first name is", firstName, "and my last name is", lastName);
 
@@ -34,8 +34,10 @@ const number = 1;
 // The result should be 2022
 // You cannot touch line 1 or 2
 
+const exercise2 = Number(year) + number;
+console.log(exercise2);
 // const result = parseInt(year) + number;
-// const result = Number(year) + number;
+
 
 // const result = ~~year + number;
 // const result = +year + number;
