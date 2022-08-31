@@ -6,6 +6,7 @@
 const letters = ["a", "b", "c"];
 // show b in the console 
 
+console.log("Exercise 1: "+ letters[1]);
 
 // --------------------------------------
 // Exercise 2 - Array Positioning
@@ -13,7 +14,11 @@ const letters = ["a", "b", "c"];
 const friends = [];
 
 // What a lonely array. Add at least 3 friend objects to it without touching the line above.  
+friends.push("Jens","Yes","Bobo");
+console.log("Exercise 2: "+ friends);
 
+
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw
 
 // --------------------------------------
 // Exercise 3 - Get the index of first occurrence of that value. 
