@@ -53,15 +53,14 @@ console.log("Exercise 4: " + letters[2]);
 
 // --------------------------------------
 // Exercise 5 - Replace
-""""WWWWWWWWWWWWWWWWWWWWW
 
 const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
-const fact.charAt + fact1.slice(1);
+const exercise5 = fact.replaceAll("j","J"); 
 
-console.log("Exercise 5: " + fact2);
+console.log("Exercise 5: " + exercise5);
 // --------------------------------------
 
 
