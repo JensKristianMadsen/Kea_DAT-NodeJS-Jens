@@ -18,8 +18,7 @@ friends.push("Jens","Yes","Bobo");
 console.log("Exercise 2: "+ friends);
 
 
-WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWw
-
+WWWWWWWWWWWWW
 // --------------------------------------
 // Exercise 3 - Get the index of first occurrence of that value. 
 
@@ -27,6 +26,8 @@ const significantMathNumbers = [0, 2.718, 3.14159, 1729];
 
 // You want to programmatically find where the number 1729 is in the array.
 // programmatically means that no finger counting allowed. There is a method for this (finding index based of value). 
+console.log("Exercise 3: "+ significantMathNumbers.find(1729));
+
 
 
 // --------------------------------------
