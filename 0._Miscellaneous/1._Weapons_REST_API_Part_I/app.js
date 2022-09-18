@@ -1,9 +1,10 @@
 //Terminal : npm install
 
+const express = require("express");
+const app = express();
 
+app.use(express.json());
 
-// import express: require .!OBS import in a single line
-const app = require("express")();
 const weapons = [
    {
       name: "Automatic rifles"
@@ -31,8 +32,43 @@ app.get("/weapons/:id", (req, res) => {
 
 });
 
+app.post("/weapons", (req,res) => {
+
+   const weapon = req.body;
+
+   // Output weapon book to the console for debugging
+   console.log(weapon);
+   weapons.push(weapon);
+   res.send("Weapon is added to the datase");
 
 
+});
+
+app.put("/weapons/:id", (req,res) => {
+
+   const weapon = req.body;
+
+  const bil = "string";
+
+console.log(!!bil)
+
+   // Output weapon book to the console for debugging
+   console.log(weapon);
+   weapons[+req.params.id -1] =weapon;
+   res.send("Weapon is added to the datase");
+
+
+});
+
+app.delete("/weapons/:id", (req,res) => {
+
+
+
+   weapons.splice(0,+req.params.id -1);
+   res.send("Weapon is added to the datase");
+
+
+});
 
 
 //node app.js
